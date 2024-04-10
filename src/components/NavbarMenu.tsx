@@ -1,13 +1,14 @@
 import React from 'react';
+import s from './NavbarMenu.module.css'
 
 export const NavbarMenu = () => {
 	return (
-		<nav className='navbar-menu'>
-			<ul className='navbar-menu__list'>
-				<li className='navbar-menu__item'>Profile</li>
-				<li className='navbar-menu__item'>Messages</li>
-				<li className='navbar-menu__item'>News</li>
-				<li className='navbar-menu__item'>Music</li>
+		<nav className={s.navbar}>
+			<ul className={s.list}>
+				<li className={s.item}>Profile</li>
+				<li className={s.item}>Messages</li>
+				<li className={s.item}>News</li>
+				<li className={s.item}>Music</li>
 			</ul>
 		</nav>
 	)

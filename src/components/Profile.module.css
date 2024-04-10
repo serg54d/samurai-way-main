@@ -1,0 +1,99 @@
+.profile {
+	background-color: #dbd5d5;
+	display: flex;
+	flex: 0 1 80%;
+	flex-direction: column;
+}
+
+.posterBlock {
+	position: relative;
+	padding: 0 0 20% 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.posterBlock img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	object-fit: cover;
+	object-position: center;
+}
+
+.aboutMe {
+	display: flex;
+	gap: 20px;
+}
+
+.avatar {
+}
+
+.avatar img {
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	flex: 0 1 100%;
+}
+
+.name {
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.birthday {
+}
+
+.city {
+}
+
+.education {
+}
+
+.webSite {
+	
+}
+
+.posts {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.formPosts {
+	display: flex;
+	flex-direction: column;
+}
+
+.textBlock {
+	display: flex;
+	width: 100%;
+}
+
+.text {
+	width: 100%;
+	max-width: 800px;
+	resize: none;
+	min-height: 100px;
+	background-color: #bab9b9;
+}
+
+.btnBlock {
+	display: flex;
+}
+
+.btnBlock button {
+	display: flex;
+	text-align: center;
+	padding: 10px 20px;
+	justify-content: center;
+	align-items: center;
+}

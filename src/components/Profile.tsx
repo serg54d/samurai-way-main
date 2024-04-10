@@ -1,52 +1,52 @@
 import React from 'react';
-
+import s from './Profile.module.css'
 export const Profile = () => {
 	return (
-		<div className='profile'>
+		<div className={s.profile}>
 
-			<div className='profile__poster-block'>
+			<div className={s.posterBlock}>
 				<img src="https://seleo.gr/wp-content/uploads/2021/04/warsaw.jpg" alt="" />
 			</div>
-			<div className="profile__about-me">
-				<div className="profile__avatar">
+			<div className={s.aboutMe}>
+				<div className={s.avatar}>
 					<img src="https://www.sythe.org/data/avatars/m/463/463457.jpg?1447004311" alt="" />
 				</div>
-				<div className='profile__user user'>
-					<h2 className="user__name">Sergey D.</h2>
-					<div className='user__info'>
-						<p className="user__birthday">
+				<div className={s.user}>
+					<h2 className={s.name}>Sergey D.</h2>
+					<div className={s.info}>
+						<p className={s.birthday}>
 							Date of Birthday: 16 may
 						</p>
-						<p className="user__city">
+						<p className={s.city}>
 							Voronezh
 						</p>
-						<p className="user__education">
+						<p className={s.education}>
 							it-incubator
 						</p>
-						<p className="user__web-site">
+						<p className={s.webSite}>
 							Web-site: <a href="youtube.com">youtube.com</a>
 						</p>
 					</div>
-					<div className="user__posts posts">
+					<div className={s.posts}>
 						<h3>My posts</h3>
-						<form className='posts__form form-posts' action="">
-							<div className='form-posts__text-block'>
-								<textarea className='form-posts__text' name="" id="">fafaff</textarea>
+						<form className={s.formPosts} action="">
+							<div className={s.textBlock}>
+								<textarea className={s.text} name="" id="">fafaff</textarea>
 							</div>
-							<div className='form-posts__btn-block'>
+							<div className={s.btnBlock}>
 								<button>Send</button>
 							</div>
 
 						</form>
-						<ul className='posts__list'>
-							<li className='posts__item'>
+						<ul className={s.list}>
+							<li className={s.item}>
 								Lorem ipsum dolor sit amet.
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div >
 
 	)
 }
