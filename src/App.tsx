@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { Header } from './components/Header';
-import { NavbarMenu } from './components/NavbarMenu';
-import { Profile } from './components/Profile';
+import { Header } from './components/Header/Header';
+import { NavbarMenu } from './components/Navbar/NavbarMenu';
+import { Profile } from './components/Profile/Profile';
 
 
 
@@ -10,7 +10,6 @@ function App() {
 	return (
 		<div className="app-wrapper">
 			<Header />
-
 			<main className='page'>
 				<div className='page__block'>
 					<NavbarMenu />

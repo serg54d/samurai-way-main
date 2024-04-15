@@ -59,41 +59,4 @@
 }
 
 .webSite {
-	
-}
-
-.posts {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-}
-
-.formPosts {
-	display: flex;
-	flex-direction: column;
-}
-
-.textBlock {
-	display: flex;
-	width: 100%;
-}
-
-.text {
-	width: 100%;
-	max-width: 800px;
-	resize: none;
-	min-height: 100px;
-	background-color: #bab9b9;
-}
-
-.btnBlock {
-	display: flex;
-}
-
-.btnBlock button {
-	display: flex;
-	text-align: center;
-	padding: 10px 20px;
-	justify-content: center;
-	align-items: center;
 }
