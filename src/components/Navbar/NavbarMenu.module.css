@@ -21,3 +21,7 @@
 	text-decoration: none;
 	color: inherit;
 }
+
+.item a.active {
+	color: gold;
+}
