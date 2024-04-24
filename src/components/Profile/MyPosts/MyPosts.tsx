@@ -15,9 +15,9 @@ export const MyPosts = () => {
 
 			</form>
 			<ul className={s.list}>
-				<Post />
-				<Post />
-				<Post />
+				<Post message='Hi, how are you' likeCounts={15} />
+				<Post message="It's my first post" likeCounts={20} />
+				
 			</ul>
 		</div>
 	)
