@@ -26,7 +26,6 @@ function App() {
 							<Route path='/music' element={<Music />} />
 							<Route path='/settings' element={<Settings />} />
 						</Routes>
-
 					</div>
 				</main>
 				<footer className=''>footer</footer>

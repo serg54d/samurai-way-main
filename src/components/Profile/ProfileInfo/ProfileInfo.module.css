@@ -1,0 +1,55 @@
+.posterBlock {
+	position: relative;
+	padding: 0 0 20% 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.posterBlock img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	object-fit: cover;
+	object-position: center;
+}
+
+.aboutMe {
+	display: flex;
+	gap: 20px;
+}
+
+.avatar {
+}
+
+.avatar img {
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	flex: 0 1 100%;
+}
+
+.name {
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.birthday {
+}
+
+.city {
+}
+
+.education {
+}
+
+.webSite {
+}
